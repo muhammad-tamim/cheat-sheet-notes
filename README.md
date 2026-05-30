@@ -213,4 +213,44 @@ C:\USERS\TAMIM\DESKTOP\TEST\TESTDIRECTORY\SRC
 
 # Chrome Shortcuts:
 
+- `Ctrl + n`: Open a new window.
+
+![image](./assets/images/chrome/ctrl-n.gif)
+
+- `Ctrl + Shift + n`: Open a new window in incognito mode.
+
+![image](./assets/images/chrome/ctrn-shift-n.gif)
+
+- `Ctrl + T`: Open a new tab and jump to it.
+
+![image](./assets/images/chrome/ctrl-t.gif)
+
+- `Ctrl + Shift + Tab`: Jump to the previous open tab.
+
+![image](./assets/images/chrome/ctrl-shift-tab.gif)
+
+- `Ctrl + tab`: Jump to the next open tab.
+
+![image](./assets/images/chrome/ctrl-tab.gif)
+
+- `Ctrl + W`: Close the current tab.
+
+![image](./assets/images/chrome/ctrl-w.gif)
+
+- `Ctrl + K`:  Search form anywhere on the page.
+
+![image](./assets/images/chrome/ctrl-k.gif)
+
+- `Ctrl + R`: Reload
+ 
+- `Ctrl + Shift + R`: Hard reload
+
+- `Ctrl + Click a link`: Open a link in new tab
+
+![image](./assets/images/chrome/ctrl-click.gif)
+
+- `Ctrl + Shift + Click a link`: Open a link and jump to it.
+
+![image](./assets/images/chrome/ctrl-shift-click.gif)
+
 # VS Code Shortcuts:
