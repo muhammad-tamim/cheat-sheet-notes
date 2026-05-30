@@ -6,6 +6,9 @@
 - [Windows Shortcuts:](#windows-shortcuts)
 - [Chrome Shortcuts:](#chrome-shortcuts)
 - [VS Code Shortcuts:](#vs-code-shortcuts)
+  - [General:](#general)
+  - [Editing:](#editing)
+  - [Emmet:](#emmet)
 
 # CMD Commands: 
 CMD (Command Prompt) is a command-line interface built into Windows that allows us to interact computer using text commands instead of a graphical interface.
@@ -53,6 +56,8 @@ Note: For creates nested directory: `mkdir src\modules\notes`
 Note: For creates multiple directory at a time: `mkdir src src\controllers src\routes src\models`
 
 - `rmdir`: Delete a directory (folder).
+
+Note: If you have some content present inside the directory, then we need to use `rmdir /s /q kegal-exercise` instead of `rmdir kegal-exercise` to delete the directory with all its content.
 
 ![alt text](./assets/images/cmd/rmdir.png)
 
@@ -254,3 +259,218 @@ C:\USERS\TAMIM\DESKTOP\TEST\TESTDIRECTORY\SRC
 ![image](./assets/images/chrome/ctrl-shift-click.gif)
 
 # VS Code Shortcuts:
+
+## General:
+
+- `Ctrl +k s`: save all
+
+![image](./assets/images/vs-code/ctrl-ks.gif)
+
+- `Ctrl + w`: Close file
+
+![image](./assets/images/vs-code/ctrl-w.gif)
+
+- `Ctrl + b`: open and close sidebar
+
+![image](./assets/images/vs-code/ctrl-b.gif)
+
+- `Ctrl + j`: open terminal 
+
+![image](./assets/images/vs-code/ctrl-j.gif)
+
+## Editing:
+
+- `Up/Down Arrow + Alt`: Move line up/down
+
+![image](./assets/images/vs-code/up-down-arrow-alt.gif)
+
+- `Alt+ Shift + Up/Down Arrow`: Copy line up/down
+
+![image](./assets/images/vs-code/alt-shift-up-down.gif)
+
+- `Ctrl + Shift + k`: Delete line 
+
+![image](./assets/images/vs-code/ctrl-shift-k.gif)
+
+- `Ctrl + p`: Go to file
+  
+![image](./assets/images/vs-code/ctrl-p.gif)
+
+- `Ctrl + f / h`: Find / Replace for just specific file
+
+
+- `Ctrl + Shift + f / h`: Find / Replace for entire directory
+
+
+- `Ctrl + shift + p + type reload`: For Reload window
+
+![image](./assets/images/vs-code/ctrl-shift-p-reload.png)
+
+- `Ctrl + Tab`: open active file
+ 
+![image](./assets/images/vs-code/ctrl-tab.gif)
+
+
+- `Alt + Click`: Insert Cursor
+
+![image](./assets/images/vs-code/alt-click.gif)
+
+- `Ctrl + Alt + Up/Down Arrow`: Insert cursor above / below
+
+![image](./assets/images/vs-code/ctrl-alt-up-down.gif)
+
+- `Ctrl + u`: Undo last cursor operation
+
+![image](./assets/images/vs-code/ctrl-u.gif)
+
+- `Ctrl + l`: select current line
+
+![image](./assets/images/vs-code/ctrl-l.gif)
+
+
+- `Ctrl + Shift + l`: Select all occurrences of current selection
+
+![image](./assets/images/vs-code/ctrl-shift-l.gif)
+
+## Emmet: 
+
+- `> (child)`: 
+
+```html
+    <!-- nav>ul>li -->
+    <nav>
+        <ui>
+            <li></li>
+        </ui>
+    </nav>
+```
+
+- `+ (Sibling)`:
+
+```html
+    <!-- h1+h2+h3+h4+p -->
+    <h1></h1>
+    <h2></h2>
+    <h3></h3>
+    <h4></h4>
+    <p></p>
+```
+
+- `() (Grouping)`:
+
+```html
+    <!-- div>(header>ul>li*2>a)+footer+p -->
+    <div>
+        <header>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </header>
+        <footer></footer>
+        <p></p>
+    </div>
+```
+
+- `* (Multiplication)`:
+
+```html
+    <!-- ul>li*5 -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+```
+
+- `$ (Numbering)`: 
+
+```html
+    <!-- ul>li.item$*5 -->
+    <ul>
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+    </ul>
+```
+
+```html
+    <!-- ul>li.item$$$*5 -->
+    <ul>
+        <li class="item001"></li>
+        <li class="item002"></li>
+        <li class="item003"></li>
+        <li class="item004"></li>
+        <li class="item005"></li>
+    </ul>
+```
+
+```html
+    <!-- ul>li.item$@3*5 -->
+    <ul>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+        <li class="item6"></li>
+        <li class="item7"></li>
+    </ul>
+```
+
+```html
+    <!-- h$[title=item$]{Header $}*6 -->
+    <h1 title="item1">Header 1</h1>
+    <h2 title="item2">Header 2</h2>
+    <h3 title="item3">Header 3</h3>
+    <h4 title="item4">Header 4</h4>
+    <h5 title="item5">Header 5</h5>
+    <h6 title="item6">Header 6</h6>
+```
+
+
+- `# and . (ID and CLASS attributes)` :
+
+```html
+    <!-- #header -->
+    <div id="header"></div>
+    <!-- .title -->
+    <div class="title"></div>
+```
+
+```html
+    <!-- form#search.wide -->
+    <form action="" id="search" class="wide"></form>
+```
+
+```html
+    <!-- p.class1.class2.class3 -->
+    <p class="class1 class2 class3"></p>
+```
+
+- `Custom Attributes`: 
+
+```html
+    <!-- p[title="Hello world"] -->
+    <p title="Hello world"></p>
+```
+
+```html
+    <!-- td[rowspan=2 colspan=3 title] -->
+    <td rowspan="2" colspan="3" title=""></td>
+```
+
+- `{} (Text)`:
+
+```html
+    <!-- a{Click Me} -->
+    <a href="">Click Me</a>
+```
+
+```html
+    <!-- p>{click }+a{here}+{ to continue} -->
+    <p>click <a href="">here</a> to continue</p>
+```
+
