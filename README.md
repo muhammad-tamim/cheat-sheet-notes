@@ -3,8 +3,8 @@
 - [CMD Commands:](#cmd-commands)
   - [Common Commands:](#common-commands)
   - [Exercise:](#exercise)
-- [Chrome Shortcuts:](#chrome-shortcuts)
 - [Windows Shortcuts:](#windows-shortcuts)
+- [Chrome Shortcuts:](#chrome-shortcuts)
 - [VS Code Shortcuts:](#vs-code-shortcuts)
 
 # CMD Commands: 
@@ -165,6 +165,52 @@ C:\USERS\TAMIM\DESKTOP\TEST\TESTDIRECTORY\SRC
 
 ```
 
-# Chrome Shortcuts:
 # Windows Shortcuts: 
+- `Alt + Tab`: Switch between open apps.
+
+![images](./assets/images/windows/alt-tab.gif)
+
+- `Windows + Tab`: Open task view.
+
+![images](./assets/images/windows/win-tab.gif)
+
+- `Windows + Ctrl + left / right`: Switch between virtual desktops.
+
+![images](./assets/images/windows/win-ctrl-left-right.gif)
+
+- `Windows + Ctrl + d / Windows + Ctrl + F4`  = Add a virtual desktop / Remove current virtual desktop.
+
+![images](./assets/images/windows/windows-ctrl-d.gif)
+![images](./assets/images/windows/win-ctrl-f4.gif)
+
+- `Windows + e / Ctrl + w` = Open file Explorer / Close active window.
+
+![images](./assets/images/windows/win-e-ctrl-w.gif)
+
+- `Alt + F4`: Close active window. (If no active window is present, a shutdown box appears.)
+
+![images](./assets/images/windows/alt-f4.gif)
+
+- `F2`: Rename folder or file 
+
+![images](./assets/images/windows/f2.gif)
+
+- `Windows + v`: open clipboard
+
+![images](./assets/images/windows/win-v.gif)
+
+- `windows + Down Arrow (double Click) / windows + Up Arrow (double Click)`: Minimize / Un-minimize a app
+
+![images](./assets/images/windows/win-down-win-up.gif)
+
+- `windows + Left / Right / Up / Down Arrow`: Moved app on left/right/up/down.
+
+![images](./assets/images/windows/win-left-right-up-down.gif)
+
+- `windows + l`: Jump to the search bar:
+
+![images](./assets/images/windows/win-l.gif)
+
+# Chrome Shortcuts:
+
 # VS Code Shortcuts:
